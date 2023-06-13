@@ -26,4 +26,6 @@ for N in range(2,1000):
         n = n//7
     else:
         n-=1
-    dfsgsdfgdsg
+    
+    if n == 6:
+        print(N)
