@@ -13,6 +13,7 @@
 
 # Сколько существует различных натуральных чисел N, при обработке которых получится R = 6?
 
+lst = []
 for N in range(2,1000):
     if N%2==0:
         n = N//2
@@ -26,6 +27,9 @@ for N in range(2,1000):
         n = n//7
     else:
         n-=1
-    
     if n == 6:
-        print(N)
+        lst.append(N)
+print(len(set(lst)))
+    
+
+    
