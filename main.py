@@ -6,7 +6,7 @@ for N in range(0, 1000):
     else:
         n = "11" + n
     
-    r = int(n, 2)
+    r = int(n, 2)fff
 
     if r >= 412:
         print(N)
